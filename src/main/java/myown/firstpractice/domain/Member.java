@@ -1,7 +1,7 @@
 package myown.firstpractice.domain;
 
 public class Member {
-    private long id;
+    private long id;//아이디선언
     private String name;
 
 
