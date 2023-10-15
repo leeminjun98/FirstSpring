@@ -1,6 +1,7 @@
 package myown.firstpractice.repository;
 
 import myown.firstpractice.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.*;
 
