@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-@Service
+
 public class MemberService {
 
     private final MemberRepository memberRepository;
-    @Autowired
+
     public MemberService(MemberRepository memberRepository){ //이부분은 왜만드는지는 알겠는데 동작과정이 잘 이해가 안댐.
         this.memberRepository = memberRepository;
     }
